@@ -78,7 +78,7 @@ const App = () => {
   }
 
   return (
-    <div class="container" id="todo-list">
+    <div id=" container todo-list">
       <h1>Brainstorming Tool</h1>
       <form onSubmit={handleSubmit}>
         <input

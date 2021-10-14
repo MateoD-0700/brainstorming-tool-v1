@@ -78,7 +78,8 @@ const App = () => {
   }
 
   return (
-    <div class="container" id="todo-list">
+    <div id="todo-list">
+      <div class="container"></div>
       <h1>Brainstorming Tool</h1>
       <form onSubmit={handleSubmit}>
         <input

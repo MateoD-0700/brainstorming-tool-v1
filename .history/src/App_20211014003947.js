@@ -78,7 +78,8 @@ const App = () => {
   }
 
   return (
-    <div class="container" id="todo-list">
+    <div id="todo-list">
+      <div class="container">
       <h1>Brainstorming Tool</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -123,6 +124,7 @@ const App = () => {
       ))}
       <div>
         <button onClick={()=>setDarkMode(!darkMode)}>Darkmode</button>
+        </div>
         </div>
     </div>
   );
