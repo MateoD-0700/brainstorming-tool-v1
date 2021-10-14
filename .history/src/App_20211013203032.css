@@ -1,0 +1,14 @@
+h1{
+  text-align: center;
+}
+
+#todo-list {
+  width: 500px;
+  margin: 60px auto;
+}
+
+form, .todo {
+  border: 1px solid grey;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
